@@ -11,6 +11,6 @@ class Guide {
     
     
     init(){
-        print("Hey, i am guide here")
+        print("Hey, i am guide he  re")
     }
 }
