@@ -73,6 +73,7 @@
 		E0D0B1DD265BBC60007A5F03 /* EpubReader */ = {
 			isa = PBXGroup;
 			children = (
+				E0D0B578265BC80B007A5F03 /* EpubReaderManager */,
 				E0D0B1DE265BBC60007A5F03 /* EpubReader.h */,
 				E0D0B1DF265BBC60007A5F03 /* Info.plist */,
 				E0D0B1F7265BBCA0007A5F03 /* Guide.swift */,
@@ -87,6 +88,13 @@
 				E0D0B1EB265BBC60007A5F03 /* Info.plist */,
 			);
 			path = EpubReaderTests;
+			sourceTree = "<group>";
+		};
+		E0D0B578265BC80B007A5F03 /* EpubReaderManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EpubReaderManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

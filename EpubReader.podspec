@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EpubReader"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "This is intended for epubreaders to read their books easily"
 
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license       = "MIT"
   spec.author       = { "Rashad" => "rashad.shirizada@gmail.com" }
   spec.platform    = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/SHRashad/EpubReader.git", :tag => "1.0.1" }
-  spec.source_files  = "EpubReader"
-
+  spec.source       = { :git => "https://github.com/SHRashad/EpubReader.git", :tag => "1.0.0" }
+  spec.source_files  = "EpubReader/EpubReader/**/*"
+spec.exclude_files = "EpubReader/EpubReader/*.plist"
 end
